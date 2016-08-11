@@ -58,7 +58,6 @@ public class PlacesService {
         return null;
     }
 
-    // https://maps.googleapis.com/maps/api/place/search/json?location=28.632808,77.218276&radius=500&types=atm&sensor=false&key=AIzaSyAhaD4HwgofkA2_9Z7fLbGB1V8Shi-S7do
     private String makeUrl(double latitude, double longitude, String place) {
         StringBuilder urlString = new StringBuilder(
                 "https://maps.googleapis.com/maps/api/place/nearbysearch/json?");
